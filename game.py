@@ -1,6 +1,3 @@
-# Simple Snake Game in Python 3 for Beginners
-# By @TokyoEdTech
-
 import turtle
 import time
 import random
@@ -21,7 +18,7 @@ class SimpleSnakeGame:
 
     def setup_screen(self):
         self.wn = turtle.Screen()
-        self.wn.title("Snake Game by @TokyoEdTech")
+        self.wn.title("Begineer Snake Game")
         self.wn.bgcolor("green")
         self.wn.setup(width=600, height=600)
         self.wn.tracer(0)  # Turns off the screen updates
